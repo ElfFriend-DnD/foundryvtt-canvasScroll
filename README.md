@@ -26,7 +26,14 @@ https://github.com/ElfFriend-DnD/foundryvtt-canvasScroll/releases/latest/downloa
 
 
 #### OSX
-Untested, the goal is to support trackpads in a less painful way. :fingers_crossed: sidways scrolling will work.
+| **Key**           | Module Behavior                             | Foundry Default Behavior                    |
+| ----------------- | ------------------------------------------- | ------------------------------------------- |
+| Touchpad          | Pan Up/Down/Left/Right                      | Zoom                                        |
+| Mouse Wheel (MW)  | Pan Up/Down                                 | Zoom                                        |
+| SHIFT + MW        | Nothing...bugged                            | Rotate selected object in larger increments |
+| CTRL + MW         | Rotate selected object in finer increments  | Rotate selected object in finer increments  |
+| CTRL + SHIFT + MW | Nothing...bugged                            | Rotate selected object in larger increments |
+| ALT/Option + MW   | Zoom                                        | Same (Nothing special)                      |
 
 ## Options
 
