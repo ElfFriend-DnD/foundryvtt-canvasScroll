@@ -1,15 +1,17 @@
 {
-  "name": "canvas-scroll",
-  "title": "Canvas Scroll",
-  "description": "Allow users to scroll the canvas.",
-  "version": "0.1.0",
-  "author": "Andrew Krigline (akrigline)",
-  "esmodules": ["foundryvtt-canvasScroll.js"],
-  "minimumCoreVersion": "0.6.0",
-  "compatibleCoreVersion": "0.6.6",
-  "url": "https://github.com/ElfFriend-DnD/foundryvtt-canvasScroll",
-  "manifest": "https://github.com/ElfFriend-DnD/foundryvtt-canvasScroll/releases/latest/download/module.json",
-  "download": "https://github.com/ElfFriend-DnD/foundryvtt-canvasScroll/releases/latest/download/module.zip",
-  "readme": "https://raw.githubusercontent.com/ElfFriend-DnD/foundryvtt-canvasScroll/master/README.md",
-  "bugs": "https://github.com/ElfFriend-DnD/foundryvtt-canvasScroll/issues"
+	"name": "canvas-scroll",
+	"title": "Canvas Scroll",
+	"description": "Allow users to scroll the canvas.",
+	"version": "0.2.0",
+	"author": "Andrew Krigline (akrigline)",
+	"esmodules": [
+		"foundryvtt-canvasScroll.js"
+	],
+	"minimumCoreVersion": "0.6.0",
+	"compatibleCoreVersion": "0.6.6",
+	"url": "https://github.com/ElfFriend-DnD/foundryvtt-canvasScroll",
+	"manifest": "https://github.com/ElfFriend-DnD/foundryvtt-canvasScroll/releases/latest/download/module.json",
+	"download": "https://github.com/ElfFriend-DnD/foundryvtt-canvasScroll/releases/latest/download/module.zip",
+	"readme": "https://raw.githubusercontent.com/ElfFriend-DnD/foundryvtt-canvasScroll/master/README.md",
+	"bugs": "https://github.com/ElfFriend-DnD/foundryvtt-canvasScroll/issues"
 }
