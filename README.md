@@ -16,7 +16,7 @@ https://github.com/ElfFriend-DnD/foundryvtt-canvasScroll/releases/latest/downloa
 ### Scroll Behavior
 
 #### Windows
-| **Key**           | Module Behavior                             | Foundry Default Behavior                    |
+| **Combo**         | Module Behavior                             | Foundry Default Behavior                    |
 | ----------------- | ------------------------------------------- | ------------------------------------------- |
 | Mouse Wheel (MW)  | Pan Up/Down                                 | Zoom                                        |
 | SHIFT + MW        | Pan Left/Right                              | Rotate selected object in larger increments |
@@ -26,14 +26,14 @@ https://github.com/ElfFriend-DnD/foundryvtt-canvasScroll/releases/latest/downloa
 
 
 #### OSX
-| **Key**           | Module Behavior                             | Foundry Default Behavior                    |
-| ----------------- | ------------------------------------------- | ------------------------------------------- |
-| Touchpad          | Pan Up/Down/Left/Right                      | Zoom                                        |
-| Mouse Wheel (MW)  | Pan Up/Down                                 | Zoom                                        |
-| SHIFT + MW        | Nothing...bugged                            | Rotate selected object in larger increments |
-| CTRL + MW         | Rotate selected object in finer increments  | Rotate selected object in finer increments  |
-| CTRL + SHIFT + MW | Nothing...bugged                            | Rotate selected object in larger increments |
-| ALT/Option + MW   | Zoom                                        | Same (Nothing special)                      |
+| **Combo**         | Module Behavior                            | Foundry Default Behavior                         |
+| ----------------- | ------------------------------------------ | ------------------------------------------------ |
+| Touchpad (Apple)  | Pan Up/Down/Left/Right                     | Zoom                                             |
+| Mouse Wheel (MW)  | Pan Up/Down                                | Zoom                                             |
+| SHIFT + MW        | Pan Left/Right                             | _Not actually sure but I suspect it was bugged._ |
+| CTRL + MW         | Rotate selected object in finer increments | Rotate selected object in finer increments       |
+| CTRL + SHIFT + MW | Nothing...                                 | _Not sure, suspect also bugged._                 |
+| ALT/Option + MW   | Zoom                                       | Same (Nothing special)                           |
 
 ## Options
 
@@ -44,6 +44,12 @@ https://github.com/ElfFriend-DnD/foundryvtt-canvasScroll/releases/latest/downloa
 | Smooth Scrolling Duration | Slider to control how long the smooth scrolling takes. Set to 0 to turn off smooth scrolling all together. |
 
 All settings are per client and not per world.
+
+### Recommendations
+
+- Apple Magic Trackpad - Smooth Scrolling Duration: 0
+
+
 
 ### Compatibility
 

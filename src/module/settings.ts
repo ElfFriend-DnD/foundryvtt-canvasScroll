@@ -35,6 +35,6 @@ export const registerSettings = function () {
     },
     scope: 'client',
     config: true,
-    hint: 'Controls how long smooth scrolling takes. 0 turns off smooth scrolling.',
+    hint: 'Controls how long smooth scrolling takes. 0 turns off smooth scrolling (Recommended for Trackpad users).',
   });
 };

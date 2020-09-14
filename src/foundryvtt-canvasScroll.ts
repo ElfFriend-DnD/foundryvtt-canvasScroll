@@ -71,9 +71,18 @@ Hooks.once('setup', function () {
     const multiplier = game.settings.get(MODULE_ID, MySettings.scrollMultiplier);
     const smoothScrollingDuration = game.settings.get(MODULE_ID, MySettings.smoothScrollingDuration);
 
-    // if we are pressing shift, scroll sideways
-    const dy = (event.shiftKey ? event.deltaX : event.deltaY) * multiplier;
-    const dx = (event.shiftKey ? event.deltaY : event.deltaX) * multiplier;
+    let dy: number;
+    let dx: number;
+
+    if (window.navigator.platform === 'MacIntel') {
+      // OSX System default interprets shift + scroll as deltaX
+      dy = event.deltaY * multiplier;
+      dx = event.deltaX * multiplier;
+    } else {
+      // if we are pressing shift, scroll sideways
+      dy = (event.shiftKey ? event.deltaX : event.deltaY) * multiplier;
+      dx = (event.shiftKey ? event.deltaY : event.deltaX) * multiplier;
+    }
 
     // make option to toggle smooth scrolling, duration
     if (dx || dy) {
