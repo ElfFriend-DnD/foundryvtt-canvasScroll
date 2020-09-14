@@ -20,7 +20,7 @@ export const registerSettings = function () {
       step: 0.5,
     },
     scope: 'client',
-    config: game.settings.get(MODULE_ID, MySettings.enable),
+    config: true,
     hint: 'Controls how much distance is covered when scrolling.',
   });
 
@@ -34,7 +34,7 @@ export const registerSettings = function () {
       step: 50,
     },
     scope: 'client',
-    config: game.settings.get(MODULE_ID, MySettings.enable),
-    hint: 'Disable foundry default scroll to zoom and instead use scroll to pan. 0 turns off smooth scrolling.',
+    config: true,
+    hint: 'Controls how long smooth scrolling takes. 0 turns off smooth scrolling.',
   });
 };
