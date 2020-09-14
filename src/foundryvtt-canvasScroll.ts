@@ -1,6 +1,5 @@
 // Import TypeScript modules
 import { registerSettings } from './module/settings';
-import { preloadTemplates } from './module/preloadTemplates';
 import { MODULE_ID, MySettings } from './constants';
 import { log } from './helpers';
 import { libWrapper } from './shim';

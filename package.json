@@ -1,7 +1,7 @@
 {
 	"private": true,
 	"name": "foundryvtt-canvasScroll",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"description": "Allow the user to scroll the canvas with system default scrolling behavior",
 	"scripts": {
 		"publish": "gulp publish",
