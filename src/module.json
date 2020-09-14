@@ -2,7 +2,7 @@
 	"name": "canvas-scroll",
 	"title": "Canvas Scroll",
 	"description": "Allow users to scroll the canvas.",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"author": "Andrew Krigline (akrigline)",
 	"esmodules": [
 		"foundryvtt-canvasScroll.js"
