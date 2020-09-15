@@ -1,6 +1,9 @@
-# Canvas Scroll
+# Deprecated in favor of [Zoom Pan Options](https://foundryvtt.com/packages/zoom-pan-options/)
 
-![Latest Release Download Count](https://img.shields.io/badge/dynamic/json?label=Downloads&query=assets%5B1%5D.download_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FElfFriend-DnD%2Ffoundryvtt-canvasScroll%2Freleases%2Flatest)
+@itamarcu is the author of the Cursor Zoom module, which he rewrote and expanded into Zoom Pan Options. I'll be contributing to Zoom Pan Options intsead of Canvas Scroll going forward.
+
+----
+## Canvas Scroll Legacy Information
 
 Similar to Roll20, I want to be able to use my scroll wheel to pan instead of zoom. The goal of this module is to make trackpad users happier.
 
